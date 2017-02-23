@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Force Micro </title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+     <header class="header">
+        
+        <div class="container">
+          <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+                 <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               <div class="logo"><img src="images/headerlogo_02.png" alt="logo" class="img-responsive"></div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right headermenu">
+                      <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                      <li><a href="index.html">Home</a></li>
+                                <li><a href="service.html">Service</a></li>
+                                <li><a href="clients.html">Clients</a></li>
+                                <li><a href="about-us.html">About us</a></li>
+                                <li class="active"><a href="contact-us.html">Contact us</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+                          </div>
+    </nav>
+   </div>
+        </header>
+    <div class="sliderWrapper innerPage"> <img src="images/contact-us.jpg" class="img-responsive" alt=""> </div>
+    <div class="contactus">
+        <div class="container">
+            <div class="contentsection module">
+                <div class="row">
+                    <div class="map-wrapper module">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.249884023328!2d76.96844511435293!3d11.019868992156606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8585666902281%3A0xf73516a59e7ae614!2sAim+Window+Soft+Solutions!5e0!3m2!1sen!2sin!4v1474286372665" width="1080" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="content-wrapper">
+                        <h2>CONTACT US</h2>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="contact-info">
+                                    <h4>Meet our Company</h4>
+                                    <p>111 Street and house #1 Vilane, Washington 99221 USA</p>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>Get in Touch</h4>
+                                    <p><strong>Office: </strong>123-123-1234
+                                        <br> <strong>Fax: </strong>123-323-3343
+                                        <br> <strong>Toll Free: </strong>123-425-6234
+                                        <br> </p>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>Follow Us</h4>
+                                    <div class="socialicons">
+                                        <a href="#"> <i class="fa fa-facebook"></i> </a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google"></i></a> </div>
+                                    <!-- Social Icons /-->
+                                </div>
+                            </div>
+                               <div class="col-sm-9">
+        <div class="contact-form">
+         <form action="mail.php" method="POST">
+          <div class="row">
+           <div class="form-group col-sm-6">
+            <label for="usr"> Your Name*</label>
+            <input type="text" class="form-control" id="usr" name="name"> </div>
+           <div class="form-group col-sm-6">
+            <label for="pwd">Your Last Name</label>
+            <input type="text" class="form-control" id="pwd" name="lname"> </div>
+          </div>
+          <div class="row">
+           <div class="form-group col-sm-6">
+            <label for="usr"> Email Id</label>
+            <input type="text" class="form-control" id="usr" name="email"> </div>
+           <div class="form-group col-sm-6">
+            <label for="pwd">Phone Number*</label>
+            <input type="text" class="form-control" id="pwd" name="phoneno"> </div>
+          </div>
+          <div class="row">
+           <div class="form-group col-sm-6">
+            <label for="usr"> Website*</label>
+            <input type="text" class="form-control" id="usr" name="url"> </div>
+           <div class="form-group col-sm-6">
+            <label for="pwd">Subject</label>
+            <input type="text" class="form-control" id="pwd" name="subject"> </div>
+          </div>
+          <div class="form-group">
+           <label for="comment">Comment:</label>
+           <textarea class="form-control" rows="10" id="comment" name="comment"></textarea>
+          </div>
+          <input type="submit" onclick="alertFunction()" class="btn btn-primary btn-lg" value="SEND YOUR MESSAGE"> </form>
+         <script type="text/javascript">
+          function alertFunction() {
+           alert("Your Message has been sent");
+          }
+         </script>
+        </div>
+       </div>
+                            <!-- Right Column Ends /-->
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- Contact Content Area /-->
+                    </div>
+                </div>
+                <!-- Row /-->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="pull-left">
+                <p class="copyright">2016 &copy; Force micro All right Reserved</p>
+            </div>
+            <div class="pull-right">
+                <p class="tagline">Designed by dezign whiz groups</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+        e.preventDefault();
+        $(this).siblings('a.active').removeClass("active");
+        $(this).addClass("active");
+        var index = $(this).index();
+        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+    });
+});
+    </script>
+</body>
+
+</html>
